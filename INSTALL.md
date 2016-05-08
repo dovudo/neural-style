@@ -12,7 +12,8 @@ First we need to install torch, following the installation instructions
 cd ~/
 curl -s https://raw.githubusercontent.com/torch/ezinstall/master/install-deps | bash
 git clone https://github.com/torch/distro.git ~/torch --recursive
-cd ~/torch; ./install.sh
+cd ~/torch; bash install-deps;
+./install.sh
 ```
 
 The first script installs all dependencies for torch and may take a while.
